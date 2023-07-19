@@ -28,7 +28,7 @@ else:
 username = input("Enter the username:\t")
 password = input("Enter the password:\t")
 
-if username == password:
+if username == input(password):
     print("Both the username and password are same")
 else:
     print("Both the username and password are not same")
